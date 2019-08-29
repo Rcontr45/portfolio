@@ -3,3 +3,7 @@ p{font-family: sans-serif;
 font-size: 15px;}
 
  body {background-color: lightblue;}
+
+ ul{outline :1px solid:blue}
+
+ .grid-container{ouline:1px solid blue;}
