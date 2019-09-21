@@ -7,6 +7,8 @@
     <title>Foundation for Sites</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav>
@@ -18,12 +20,19 @@
      </ul>
       </div>
       </nav>
+      <br></br>
 
   <div class="wrapper">
-      <h1>Rebecca's Portfolio</h1>
+      <h1>Rebecca's Portfolio</h1><br>
         </div>
 
-  <p class= "p-welcome"> Welcome to my personal portfolio.</p>
+        <img src="gallery/outside.png" width="600" height="400"
+         style= "display: block; margin-left: auto; margin-right: auto;">
+
+
+
+  <p class= "p-welcome"> Welcome to my personal portfolio. Here you'll find examples of my various projects.<br>
+    Click through the pages to see photos and/or to get in touch with me. </p>
 
 
 
@@ -33,17 +42,24 @@
     var greeting;
 
     if (hourNow > 18) {
-    greeting ='Good evening!';
-    } else if (hourNow > 12) {
-    greeting = 'Good afternoon!';
-    } else if (hourNow > 0) {
-    greeting = 'Good morning!';
-    } else {
-    greeting = 'Welcome!';
+    greeting ='Hello night owl!';
+    }
+
+    else if (hourNow > 12) {
+    greeting = 'Hey there!';
+    }
+
+    else if (hourNow > 0) {
+    greeting = 'Hello early bird!';
+    }
+
+    else {
+    greeting = 'How are you?';
     }
 
  document.write( ' <h3>' +greeting + ' </ h3>');
     </script>
+
 
 
 
